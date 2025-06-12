@@ -24,5 +24,5 @@ basic.forever(function () {
     data.r = pins.digitalReadPin(IR.r) === 1;
     console.log(data);
 
-    basic.pause(20)
+    basic.pause(50)
 })
